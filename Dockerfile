@@ -1,4 +1,4 @@
-FROM golang:1.7-alpine3.5
+FROM golang:latest
 RUN \
   apk update && apk add git make build-base curl file autoconf automake libtool linux-headers && \
   cd /root && \
